@@ -1,0 +1,17 @@
+{
+  "name": "markup2-service",
+  "version": "1.0.0",
+  "description": "Markup2 HTTP Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "node"
+  },
+  "author": "ilovecherries",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "markup2": "12Me21/markup2#bfa45d0a0c3379955fcb829cd0d92da105865d29"
+  }
+}
