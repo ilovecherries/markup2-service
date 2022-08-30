@@ -23,7 +23,6 @@ app.post('/v1/markup', ({ body, query: { lang="12y" } }, res) => {
       })+'\n')
       return
    }
-   console.log(body)
    if (!(typeof body === 'string' || body instanceof String)) {
       res.status(400)
       res.send(JSON.stringify({
